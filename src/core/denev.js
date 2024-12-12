@@ -1,4 +1,4 @@
-export default class Component {
+export class Component {
   constructor(payload = {}) {
     const { tagName } = payload;
     this.el = document.createElement(tagName);
